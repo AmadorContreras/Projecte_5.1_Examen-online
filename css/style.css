@@ -1,0 +1,530 @@
+html {
+    margin-top: 0px;
+}
+body {
+    background-color: rgb(230, 230, 230);
+    
+}
+.header {
+    width: 1200px;
+    height: 100px;
+    background-color: rgb(206, 206, 206);
+    margin: 0px auto 0px auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.header h1{
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    padding: 15px 0px 0px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3em
+}
+.indice{
+    float: left;
+    list-style: none;
+    width: 500px;
+    height: 300px;
+    margin: 25px auto auto 75px;
+    padding-top: 25px;
+    background-color: rgb(77, 77, 77);
+    font-size: 1.1em;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+}
+.legend {
+    font-size: 2.1em;
+    margin-bottom: 10px;
+}
+.indice input{
+    width: 300px;
+    height: 35px;
+    border-radius: 10px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+
+}
+.preguntas {
+    width: 1200px;
+    height: 5490px;
+    background-color: grey;
+    margin: 0px auto 0px auto;
+
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.index {
+    width: 1200px;
+    height: 925px;
+    background-color: grey;
+    margin: 0px auto 0px auto;
+
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+/*todos los estilos de preguntas*/
+
+/*recuadro principal*/
+.pregunta1{
+    float: left;
+    list-style: none;
+    width: 1000px;
+    height: 485px;
+    background-color: rgb(63, 63, 63);
+    margin: 30px auto auto 100px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 40px;
+}
+/*recuadro de imagen de pregunta 1*/
+.img-pregunta1 {
+    float: left;
+    width: 500px;
+    height: 385px;
+    background-color: rgb(185, 185, 185);
+    margin: 50px 0px 50px 50px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 15px;
+}
+/*stilo de imagen de pregunta 1*/
+.img-1 {
+    float: left;
+    width: 450px;
+    height: 180px;
+    margin:45px auto auto 25px;
+    border-radius: 15px;
+    border: 2px solid rgb(48, 48, 48);  
+}
+
+/*estilo de titulo de imagen*/
+.img-pregunta1 h1 {
+    float: left;
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+    width: 450px;
+    height: 50px;
+    margin:25px auto auto 25px;
+    padding: 7px 0px 0px 0px;
+    border-radius: 15px;
+}
+
+/* stilo de respuestas*/
+.txt-pregunta1 {
+    float: left;
+    width: 350px;
+    height: 385px;
+    background-color: rgb(117, 117, 117);
+    margin: 50px auto 50px 50px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 15px;
+}
+.titulo-1 h3{
+    float: left;
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+    width: 280px;
+    height: 50px;
+    margin:25px auto auto 25px;
+    padding: 7px 10px 0px 10px;
+    border-radius: 15px;
+    text-justify: auto;
+}
+/*stilos de los recuadros para seleccionar una resuesta*/
+.respuestas-1 {
+    float: left;
+    width: 280px;
+    height: 50px;
+    margin:25px auto auto 25px;
+    padding: 0px 10px 0px 10px;
+}
+.respuestas-7 {
+    float: left;
+    width: 280px;
+    height: 50px;
+    margin:25px auto auto 15px;
+    padding: 0px 10px 0px 10px;
+}
+
+.respuesta-recuadro {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(206, 206, 206);
+    text-align: center;
+    margin:0px auto 0px auto;
+    border-radius: 15px;
+
+}
+.respuesta-recuadro input {
+    float: left;
+    width: 30px;
+    height: 20px;
+    margin:13px auto auto 10px;
+}
+.respuesta-recuadro p {
+    float: left;
+    margin:12px auto auto 15px;
+    font-size: 1.2em;
+}
+
+.respuesta-recuadro-2 {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(206, 206, 206);
+    text-align: center;
+    margin:0px auto 0px auto;
+    border-radius: 15px;
+
+}
+.respuesta-recuadro-2 input {
+    float: left;
+    width: 30px;
+    height: 20px;
+    margin:13px auto auto 10px;
+}
+.respuesta-recuadro-2 p {
+    float: left;
+    margin:12px auto auto 15px;
+    font-size: 1.2em;
+}
+/*empieza pregunta 2*/
+.img-2 {
+    float: left;
+    width: 450px;
+    height: 250px;
+    margin:25px auto auto 25px;
+    border-radius: 15px;
+    border: 2px solid rgb(48, 48, 48);
+}
+
+/*empieza pregunta 3*/
+.img-3{
+    float: left;
+    width: 450px;
+    height: 250px;
+    margin:25px auto auto 25px;
+    border-radius: 15px;
+    border: 2px solid rgb(48, 48, 48);
+}
+
+/*empieza pregunta 4 y 5*/
+.img-4 {
+    float: left;
+    width: 450px;
+    height: 250px;
+    margin:25px auto auto 25px;
+    border-radius: 15px;
+    border: 2px solid rgb(48, 48, 48);
+}
+
+.respuesta-recuadro-size{
+    width: 300px;
+    height: 250px;
+    background-color: rgb(206, 206, 206);
+    text-align: center;
+    margin:100px 25px 0px 25px;
+    border-radius: 15px;
+}
+
+.respuesta-recuadro-size li {
+    float: left;   
+    width: 250px;
+    height: 250px;
+    padding-left: 25px;
+    font-size: 1.3em;
+}
+
+.info-5 {
+    float: left;
+    width: 250px;
+    height: 35px;
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+    margin: 15px auto 10px 25px;
+    padding-top: 15px;
+    border-radius: 15px;
+}
+#encuadre-1 {
+    background-color: rgb(156, 156, 156);
+    width: 200px;
+    height: 30px;
+    font-size: .7em;
+    border-radius: 5px;
+    border-color: rgb(77, 77, 77);
+}
+#encuadre-2 {
+    background-color: rgb(156, 156, 156);
+    width: 200px;
+    height: 30px;
+    font-size: .7em;
+    border-radius: 5px;
+    border-color: rgb(77, 77, 77);
+}
+/*recuadro principa8*/
+.pregunta8 {
+    float: left;
+    list-style: none;
+    width: 1000px;
+    height: 760px;
+    background-color: rgb(63, 63, 63);
+    margin: 30px auto auto 100px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 40px;
+}
+/*recuadro de imagen de pregunta 1*/
+.img-pregunta8 {
+    float: left;
+    width: 900px;
+    height: 385px;
+    background-color: rgb(185, 185, 185);
+    margin: 50px 0px 25px 50px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 15px;
+}
+/*stilo de imagen de pregunta 1*/
+.img-8 {
+    float: left;
+    width: 850px;
+    height: 220px;
+    margin:40px auto auto 25px;
+    border-radius: 15px;
+    border: 2px solid rgb(48, 48, 48);
+    
+}
+
+/*estilo de titulo de imagen*/
+.img-pregunta8 h1 {
+    float: left;
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+    width: 850px;
+    height: 50px;
+    margin:25px auto auto 25px;
+    padding: 7px 0px 0px 0px;
+    border-radius: 15px;
+}
+
+/* stilo de respuestas*/
+.txt-pregunta8 {
+    float: left;
+    width: 900px;
+    height: 250px;
+    background-color: rgb(117, 117, 117);
+    margin: 0px auto 50px 50px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 15px;
+}
+.titulo-8 h3{
+    float: left;
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+    width: 280px;
+    height: 150px;
+    margin:25px auto auto 25px;
+    padding: 50px 10px 0px 10px;
+    border-radius: 15px;
+    font-size: 1.5em;
+    text-justify: auto;
+}
+
+.respuesta-recuadro-size-8 {
+    float: left;
+    width: 520px;
+    height: 200px;
+    background-color: rgb(206, 206, 206);
+    text-align: center;
+    margin:25px auto 0px 25px;
+    border-radius: 15px;
+}
+.respuesta-recuadro-size-8 div {
+    float: left;   
+    width: 475px;
+    height: 25px;
+    padding-left: 25px;
+    font-size: 1.3em;
+}
+
+.info-8 {
+    float: left;
+    width: 471px;
+    height: 38px;
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+    margin: 15px auto 10px auto;
+    padding-top: 10px;
+    font-size: 1em;
+    border-radius: 15px;
+    border: 2px solid rgb(46, 46, 46);
+}
+#size-8 {
+    background-color: rgb(156, 156, 156);
+    width: 475px;
+    height: 105px;
+    font-size: .8em;
+    border-radius: 10px;
+    border-color: rgb(117, 117, 117);
+}
+
+
+/*recuadro principa10*/
+.pregunta10 {
+    float: left;
+    list-style: none;
+    width: 1000px;
+    height: 515px;
+    background-color: rgb(63, 63, 63);
+    margin: 30px auto auto 100px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 40px;
+}
+/*recuadro de imagen de pregunta 1*/
+.img-pregunta10 {
+    float: left;
+    width: 500px;
+    height: 415px;
+    background-color: rgb(185, 185, 185);
+    margin: 50px 0px 50px 50px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 15px;
+}
+/*stilo de imagen de pregunta 1*/
+.img-10{
+    float: left;
+    width: 450px;
+    height: 280px;
+    margin:25px auto auto 25px;
+    border-radius: 15px;
+    border: 2px solid rgb(48, 48, 48);
+    
+}
+
+/*estilo de titulo de imagen*/
+.img-pregunta10 h1 {
+    float: left;
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+    width: 450px;
+    height: 47px;
+    margin:25px auto auto 25px;
+    padding: 7px 0px 0px 0px;
+    border-radius: 15px;
+}
+
+/* stilo de respuestas*/
+.txt-pregunta10 {
+    float: left;
+    width: 350px;
+    height: 415px;
+    background-color: rgb(117, 117, 117);
+    margin: 50px auto 50px 50px;
+    padding: 0px 0px 0px 0px;
+    border-radius: 15px;
+}
+.titulo-10 h3{
+    float: left;
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+    width: 280px;
+    height: 50px;
+    margin:25px auto 25px 25px;
+    padding: 7px 10px 0px 10px;
+    border-radius: 15px;
+ 
+    text-justify: auto;
+}
+.respuesta-recuadro-10 {
+    float: left;
+    width: 300px;
+    height: 35px;
+    background-color: rgb(206, 206, 206);
+    text-align: center;
+    margin:0px auto 10px 25px;
+    padding-top: 15px;
+    border-radius: 15px;
+}
+
+#respuesta-recuadro-10 {
+    float: left;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(61, 61, 61);
+    color: white;
+    text-align: center;
+    margin:0px auto auto 25px;
+    padding-top: 3px;
+    border-radius: 15px;
+}
+
+#respuesta-recuadro-10 input {
+    width: 250px;
+    background-color: rgb(219, 219, 219);
+}
+
+
+
+/*botones finales*/
+.boton-final {
+    width: 450px;
+    height: 100px;
+    background-color: rgb(117, 117, 117);
+    margin: 10px auto 0px auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.boton-fin input {
+    float: left;
+    background-color: rgb(168, 252, 238);
+    width: 150px;
+    height: 40px;
+    margin: 30px 0px 0px 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+.boton-fin-index input {
+    float: left;
+    background-color: rgb(197, 197, 197);
+    width: 250px;
+    height: 50px;
+    margin: 25px auto 0px 100px;
+    text-align: center;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+.boton-reset input {
+    float: left;
+    width: 150px;
+    height: 40px;
+    margin: 30px 0px 0px 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.checked {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(156, 248, 128);
+    text-align: center;
+    margin:0px auto 0px auto;
+    border-radius: 15px;
+}
+.checked input, .checked-2 input {
+    float: left;
+    width: 30px;
+    height: 20px;
+    margin:13px auto auto 10px;
+}
+.checked p, .checked-2 p {
+    float: left;
+    margin:12px auto auto 15px;
+    font-size: 1.2em;
+}
+.checked-2 {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(156, 248, 128);
+    text-align: center;
+    margin:0px auto 0px auto;
+    border-radius: 15px;
+}
+
